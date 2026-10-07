@@ -72,6 +72,11 @@ const FAQSection = () => {
             );
           })}
         </div>
+
+        {/* View more FAQ's button */}
+        <button className="w-full mt-6 py-3.5 border border-gray-300 rounded-full text-sm font-semibold text-gray-800 hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 cursor-pointer">
+          View more FAQ's
+        </button>
       </div>
     </div>
   );
